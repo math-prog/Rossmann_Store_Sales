@@ -5,7 +5,7 @@ Este é um projeto de previsão de vendas, onde foi utilizado ferramentas de Mac
 <br><br>
 
 <p align='center'>
-    <img src = 'img/rossmann.png'>
+    <img src = 'images/Rossmann_logo_2.png'>
 </p>
 <br>
 
