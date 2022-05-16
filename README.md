@@ -21,10 +21,9 @@ O projeto foi desenvolvido a partir da necessidade do CFO da empresa em destinar
 - Para lojas que não possuem competidor próximo, será considerado uma distância muito maior do que a máxima presente nos dados analisados
 <br><br>
 
-<details><summary>Clique para ver as variáveis do dataset:</summary><br>   
+<details><summary>Variáveis originais do dataset:</summary><br>   
     
-### 1.3. Sobre os dados
-| Atributos                        | Descrição                                                    |
+| Variável                         | Descrição                                                    |
 | -------------------------------- | ------------------------------------------------------------ |
 | Id                               | Um Id que representa uma dupla (Store, Date) dentro do conjunto de teste |
 | Store                            | Um id único para cada loja                                   |
@@ -41,8 +40,27 @@ O projeto foi desenvolvido a partir da necessidade do CFO da empresa em destinar
 | Promo2                           | Promo2 é uma promoção contínua e consecutiva para algumas lojas: 0 = a loja não está participando, 1 = a loja está participando |
 | Promo2Since[Year/Week]           | Descreve o ano e a semana em que a loja começou a participar da Promo2 |
 | PromoInterval                    | Descreve os intervalos consecutivos de início da promoção 2, nomeando os meses em que a promoção é iniciada novamente. Por exemplo. "Fev, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
-    
 </details>
+
+<details><summary>Variáveis criadas durante a etapa de Feature Engineering:</summary><br>
+
+Variável | Definição
+------------ | -------------
+| year | Ano da variável original 'date' em que a venda aconteceu |
+| month | Mês da variável original 'date' em que a venda aconteceu |
+| day | Dia da data em que a venda aconteceu |
+| week_of_year | Dia da semana da variável original 'date' em que a a venda aconteceu, considerando que o primeiro dia da semana do ano começa na Quinta-Feira, sendo intitulada como 1 (tipo inteiro) |
+| year_week | Semana do ano da variável original 'date' em que a venda aconteceu, considerando que a primeira semana do ano começa na Segunda-Feira, intitulada como 0 (tipo objeto, %Y-%W) 
+| season | Estação da variável original 'date' em que a venda aconteceu |
+| competition_open_since | Concatenação da variável 'competition_open_since_year' e 'competition_open_since_month' |
+| competition_open_timeinmonths | Calculado o tempo em meses que o competidor iniciou, baseado na variável 'purchased date' |
+| promo2_since | Concatenação das variáveis 'promo2_since_year' e 'promo2_since_week' |
+| promo2_since_timeinweeks | Calculado a quantidade de vezes na semana que uma promoção iniciou, baseada na variavel 'purchased date' |
+| month_map | Mês from date that the sales occurred as auxiliar feature |
+| is_promo2 | whether the purchase occurred during an active promo2 (1) or not (0)  |
+<!-- | x | xxx | -->
+    
+</details>    
 
 <br><br>
 
