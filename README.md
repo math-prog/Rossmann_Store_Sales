@@ -1,7 +1,7 @@
 # Rossmann
-<b>AVISO:</b> Todos os problemas e premissas contextualizados no projeto são fictícios. Seu único objetivo é dar sentido para o desenvolvimento da solução.<br><br>
+<b>AVISO:</b> Todos os problemas e premissas contextualizados no projeto são fictícios, tendo como objetivo dar sentido para o desenvolvimento da solução.<br><br>
 # Previsão de vendas das drogarias Rossmann
-Este é um projeto de previsão de vendas, onde foi utilizado ferramentas de Machine Learning para resolução do problema. 
+Este é um projeto de previsão de vendas, onde foi utilizado Linguagem Python e Machine Learning para resolução do problema. 
 <br><br>
 
 <p align='center'>
@@ -52,12 +52,12 @@ Variável | Definição
 | week_of_year | Dia da semana da variável original 'date' em que a a venda aconteceu, considerando que o primeiro dia da semana do ano começa na Quinta-Feira, sendo intitulada como 1 (tipo inteiro) |
 | year_week | Semana do ano da variável original 'date' em que a venda aconteceu, considerando que a primeira semana do ano começa na Segunda-Feira, intitulada como 0 (tipo objeto, %Y-%W) 
 | season | Estação da variável original 'date' em que a venda aconteceu |
-| competition_open_since | Concatenação da variável 'competition_open_since_year' e 'competition_open_since_month' |
-| competition_open_timeinmonths | Calculado o tempo em meses que o competidor iniciou, baseado na variável 'purchased date' |
-| promo2_since | Concatenação das variáveis 'promo2_since_year' e 'promo2_since_week' |
-| promo2_since_timeinweeks | Calculado a quantidade de vezes na semana que uma promoção iniciou, baseada na variavel 'purchased date' |
-| month_map | Mês from date that the sales occurred as auxiliar feature |
-| is_promo2 | whether the purchase occurred during an active promo2 (1) or not (0)  |
+| competition_since | Concatenação da variável 'competition_open_since_year' e 'competition_open_since_month' |
+| competition_time_month | Calculado o tempo em meses que o competidor iniciou, baseado na variável 'purchased date' |
+| promo_since | Concatenação das variáveis 'promo2_since_year' e 'promo2_since_week' |
+| promo_time_week | Calculado a quantidade de vezes na semana que uma promoção iniciou, baseada na variavel 'purchased date' |
+| month_map | Mês da variável original 'date' em que a benda ocorreu, como um atributo auxiliar |
+| is_promo2 | Se a compra aconteceu enquando a promoção estava ativa, informação retirada da variável promo2  sim (1) ou não (0)  |
 <!-- | x | xxx | -->
     
 </details>    
