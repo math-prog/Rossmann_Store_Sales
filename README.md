@@ -142,9 +142,9 @@ XGBoost Regressor | 764.975639 | 0.114861 | 1100.725149
 ### 5.4. Performance de negócio
 Scenario | Values
 ------------ | -------------
-0	predictions	| R$286,435,616.00
-1	worst_scenario | R$285,579,535.55
-2	best_scenario | R$287,291,675.73
+predictions	| R$286,435,616.00
+worst_scenario | R$285,579,535.55
+best_scenario | R$287,291,675.73
 
 ## 6. Conclusão
 Considerando o primeiro ciclo do CRISP-DS, o modelo final apresentou um desempenho aceitável, com um MAPE (Erro Médio Percentual Absoluto) de 10,3%. Sendo assim, podendo colocá-lo em produção.<br>
