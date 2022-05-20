@@ -129,10 +129,10 @@ XGBoost Regressor | 6683.705545 | 0.949492 | 7330.9885
 ### 5.2. Performance real dos modelos - Cross Validation
 Model Name | MAE_CV | MAPE_CV | RMSE_CV
 ------------ | ------------- | ------------- | ------------- 
-Linear Regression | 2081.73+/-295.63 | 0.3+/-0.02 | 2952.52+/-468.37
-Lasso | 2116.38+/-341.5 | 0.29+/-0.01 | 3057.75+/-504.26
-Random Forest Regressor | 837.7+/-219.24 | 0.12+/-0.02 | 1256.59+/-320.28
-XGBoost Regressor | 7049.23+/-588.53 | 0.95+/-0.0 | 7715.24+/-689.33
+Linear Regression | 2081.73 +/-295.63 | 0.3 +/-0.02 | 2952.52 +/-468.37
+Lasso | 2116.38 +/-341.5 | 0.29 +/-0.01 | 3057.75 +/-504.26
+Random Forest Regressor | 837.7 +/-219.24 | 0.12 +/-0.02 | 1256.59 +/-320.28
+XGBoost Regressor | 7049.23 +/-588.53 | 0.95 +/-0.0 | 7715.24 +/-689.33
 
 ### 5.3. Performance XGBoost - Final
 Model Name | MAE | MAPE | RMSE
