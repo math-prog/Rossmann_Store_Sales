@@ -150,9 +150,9 @@ best_scenario | R$287,291,675.73
 Considerando o primeiro ciclo do CRISP-DS, o modelo final apresentou um desempenho aceitável, com um MAPE (Erro Médio Percentual Absoluto) de 10,3%. Sendo assim, podendo colocá-lo em produção.<br>
 É possível acessar o modelo através de um bot no telegram, com hospedagem no heroku, basta clicar no ícone do telegram abaixo.<br><br>
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fmath_rossmann_bot) [![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://www.heroku.com)<br><br>
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rossmanm03_bot) [![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://www.heroku.com)<br><br>
 
-![image](img/rossmann_bot.png)
+![image](images/rossmann_bot.png)
 
 <br><br>
 
