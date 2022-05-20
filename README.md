@@ -92,19 +92,19 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 ### **H1.** Lojas com maior sortimento deveriam vender mais.
 **FALSA** - Lojas com maior **SORTIMENTO** vendem **MENOS**
 <br><br>
-![image](images/H1_1.png)
+![image](images/h1_1.png)
 
 <br><br>
 ### **H2.** Lojas com competidores mais proximos deveriam vender menos.
 **FALSA** - Lojas com competidores **MAIS PRÓXIMOS** vendem **MAIS**
 <br><br>
-![image](img/H2.png)
+![image](images/h2_2.png)
 
 <br><br>
 ### **H8.** Lojas deveriam vender mais ao longo dos anos.
 **FALSA** Lojas vendem **MENOS** ao longo dos anos.
 <br><br>
-![image](img/H8.png)
+![image](images/h8_1.png)
 <br><br>
 
 ## 4. Modelos utilizados
