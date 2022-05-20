@@ -119,43 +119,35 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 
 ### 5.1. Performance única dos modelos
 Model Name | MAE | MAPE | RMSE
------------- | -------------
-
+------------ | ------------- | ------------- | -------------
 Random Forest Regressor | 679.080548 | 0.099879 | 1010.101738
 Average Model | 1354.800353 | 0.455051 | 1835.135542
 Linear Regression | 1867.089774 | 0.292694 | 2671.049215
 Linear Regression - Lasso | 1891.704881 | 0.289106 | 2744.451737
 XGBoost Regressor | 6683.705545 | 0.949492 | 7330.9885
-<!-- | x | xxx | -->
 <br><br>
 
 ### 5.2. Performance real dos modelos - Cross Validation
 Model Name | MAE_CV | MAPE_CV | RMSE_CV
------------- | -------------
-
+------------ | ------------- | ------------- | ------------- 
 Linear Regression | 2081.73+/-295.63 | 0.3+/-0.02 | 2952.52+/-468.37
 Lasso | 2116.38+/-341.5 | 0.29+/-0.01 | 3057.75+/-504.26
 Random Forest Regressor | 837.7+/-219.24 | 0.12+/-0.02 | 1256.59+/-320.28
 XGBoost Regressor | 7049.23+/-588.53 | 0.95+/-0.0 | 7715.24+/-689.33
-<!-- | x | xxx | -->
 <br><br>
 
 ### 5.3. Performance XGBoost - Final
 Model Name | MAE | MAPE | RMSE
------------- | -------------
-
+------------ | ------------- | ------------- | -------------
 XGBoost Regressor | 764.975639 | 0.114861 | 1100.725149
-<!-- | x | xxx | -->
 <br><br>
 
 ### 5.4. Performance de negócio
 Scenario | Values
 ------------ | -------------
-
 0	predictions	| R$286,435,616.00
 1	worst_scenario | R$285,579,535.55
 2	best_scenario | R$287,291,675.73
-<!-- | x | xxx | -->
 <br><br>
 
 ## 6. Conclusão
