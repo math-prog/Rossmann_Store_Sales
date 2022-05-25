@@ -166,5 +166,5 @@ Considerando o primeiro ciclo do CRISP-DS, o modelo final apresentou um desempen
 - Criar novas hipóteses de negócio;
 - Aprofundar mais na análise exploratória de dados de acordo com as hipóteses;
 - Trabalhar pontualmente nas lojas que tiveram um outlier em suas previsões nesse primeiro ciclo;
-- Estudar a viabilidade da implementação de um modelo de predição de customer. Para o estudo irei utilizar o esforço x impacto da previsão da feature.
+- Estudar a viabilidade da implementação de um modelo de predição de customer, uma vez que essa variável não está no modelo de previsão de vendas e pode auxiliar na precisão da mesma. Para o estudo irei utilizar o esforço x impacto da previsão da feature.
 <br><br>
