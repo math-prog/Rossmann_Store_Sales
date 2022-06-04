@@ -88,7 +88,10 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 **Passo 10 - Deploy do Modelo em Produção:** Após execução bem sucedida do modelo, o objetivo foi publica-lo em um ambiente de nuvem para que outras pessoas ou serviços possam usar os resultados para melhorar a decisão de negócios. A plataforma de aplicativo em nuvem escolhida foi o Heroku.
 <br><br>
 
-## 3. Top insights
+## 3. Mind Map
+![image](images/DAILY_STORE_SALES.png)
+
+## 4. Top insights
 ### **H1.** Lojas com maior sortimento deveriam vender mais.
 **FALSA** - Lojas com maior **SORTIMENTO** vendem **MENOS**
 <br><br>
@@ -107,7 +110,7 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 ![image](images/h8_1.png)
 <br><br>
 
-## 4. Modelos utilizados
+## 5. Modelos utilizados
 - Média;
 - Regressão Linear;
 - Regressão Linear com Regularização (Lasso);
@@ -115,9 +118,9 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 - XGBoost Regressor.
 <br><br>
 
-## 5. Performance
+## 6. Performance
 
-### 5.1. Performance única dos modelos
+### 6.1. Performance única dos modelos
 Model Name | MAE | MAPE | RMSE
 ------------ | ------------- | ------------- | -------------
 Random Forest Regressor | 679.080548 | 0.099879 | 1010.101738
@@ -126,7 +129,7 @@ Linear Regression | 1867.089774 | 0.292694 | 2671.049215
 Linear Regression - Lasso | 1891.704881 | 0.289106 | 2744.451737
 XGBoost Regressor | 6683.705545 | 0.949492 | 7330.9885
 
-### 5.2. Performance real dos modelos - Cross Validation
+### 6.2. Performance real dos modelos - Cross Validation
 Model Name | MAE_CV | MAPE_CV | RMSE_CV
 ------------ | ------------- | ------------- | ------------- 
 Linear Regression | 2081.73 +/-295.63 | 0.3 +/-0.02 | 2952.52 +/-468.37
@@ -134,19 +137,19 @@ Lasso | 2116.38 +/-341.5 | 0.29 +/-0.01 | 3057.75 +/-504.26
 Random Forest Regressor | 837.7 +/-219.24 | 0.12 +/-0.02 | 1256.59 +/-320.28
 XGBoost Regressor | 7049.23 +/-588.53 | 0.95 +/-0.0 | 7715.24 +/-689.33
 
-### 5.3. Performance XGBoost - Final
+### 6.3. Performance XGBoost - Final
 Model Name | MAE | MAPE | RMSE
 ------------ | ------------- | ------------- | -------------
 XGBoost Regressor | 764.975639 | 0.114861 | 1100.725149
 
-### 5.4. Performance de negócio
+### 6.4. Performance de negócio
 Scenario | Values
 ------------ | -------------
 predictions	| R$286,435,616.00
 worst_scenario | R$285,579,535.55
 best_scenario | R$287,291,675.73
 
-## 6. Conclusão
+## 7. Conclusão
 Considerando o primeiro ciclo do CRISP-DS, o modelo final apresentou um desempenho aceitável, com um MAPE (Erro Médio Percentual Absoluto) de 10,3%. Sendo assim, podendo colocá-lo em produção.<br>
 É possível acessar o modelo através de um bot no telegram, com hospedagem no heroku, basta clicar no ícone do telegram abaixo.<br><br>
 
@@ -156,13 +159,13 @@ Considerando o primeiro ciclo do CRISP-DS, o modelo final apresentou um desempen
 
 <br><br>
 
-## 7. Lições aprendidas
+## 8. Lições aprendidas
 - Nem sempre o melhor modelo é o que apresenta um menor erro;
 - O modelo de média pode representar um fenômeno melhor que um algoritmo de machine learning;
 - Uma boa EDA e um Cross Validation correto são de extrema importância para a solução do problema.
 <br><br>
 
-## 8. Próximos passos
+## 9. Próximos passos
 - Criar novas hipóteses de negócio;
 - Aprofundar mais na análise exploratória de dados de acordo com as hipóteses;
 - Trabalhar pontualmente nas lojas que tiveram um outlier em suas previsões nesse primeiro ciclo;
